@@ -1,0 +1,25 @@
+{
+  "name": "apexsankey",
+  "version": "1.2.1",
+  "dependencies": {
+    "defined": "^1.0.1",
+    "graphlib": "~2.1.0",
+    "lodash": "^4.17.21"
+  },
+  "type": "module",
+  "main": "./apexsankey.min.js",
+  "module": "./apexsankey.es.min.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./apexsankey.es.min.js"
+      },
+      "require": {
+        "types": "./index.d.ts",
+        "default": "./apexsankey.min.js"
+      }
+    }
+  }
+}
