@@ -2,9 +2,8 @@
   "name": "apexsankey",
   "version": "1.2.1",
   "dependencies": {
-    "defined": "^1.0.1",
     "graphlib": "~2.1.0",
-    "lodash": "^4.17.21"
+    "@svgdotjs/svg.js": "^3.2.4"
   },
   "type": "module",
   "main": "./apexsankey.min.js",
